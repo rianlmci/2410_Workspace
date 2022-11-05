@@ -1,0 +1,10 @@
+﻿Ant
+Bee
+Cow
+Dog
+Elephant
+Falcon
+Giraffe
+Hyena
+Iguana
+Jaguar
