@@ -13,5 +13,8 @@ public class Dog : Pet //: is extends/impliments
         return "bark bark!";
     }
 
-    public string Fetch() { return $"{this.Name} fetches a ball";}
+    public string Fetch() 
+    {   
+        return $"{this.Name} fetches a ball";
+    }
 }

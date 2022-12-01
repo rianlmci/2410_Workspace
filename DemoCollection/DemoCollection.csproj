@@ -8,16 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="TextFiles\**" />
-    <EmbeddedResource Remove="TextFiles\**" />
-    <None Remove="TextFiles\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Poem.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Poem1.txt">
+    <None Update="resources\words.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
